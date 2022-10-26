@@ -61,7 +61,7 @@ mode: 'development',
     new ImageminPlugin({
       test: /\.(jpe?g|png|gif|svg)$/i,
       pngquant: {
-        quality: '70-85'
+        quality: '60-90'
       }
     })
   ],
