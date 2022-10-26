@@ -1,25 +1,29 @@
 {
-  "name": "homework",
+  "name": "webpack_homework",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "global": "^4.4.0",
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0"
+  "repository": "https://github.com/ItsTiffanyChen/javascript-modularization.git",
+  "author": "Tiffany Chen <tiffany.chen@104.com.tw>",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hung104/js-modularization-homework.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hung104/js-modularization-homework/issues"
-  },
-  "homepage": "https://github.com/hung104/js-modularization-homework#readme",
-  "description": ""
+  "dependencies": {
+    "imagemin-webpack-plugin": "^2.4.2"
+  }
 }
