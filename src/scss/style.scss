@@ -3,5 +3,11 @@ $body-color: red;
 body {
   color: $body-color;
   font-size: 40px;
-  background-color: yellow;
+  background-color: black;
+}
+
+.desk{
+  background-color: aquamarine;
+  span{color: yellow;}
+
 }
